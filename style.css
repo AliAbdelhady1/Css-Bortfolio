@@ -1,0 +1,59 @@
+.gradient-background {
+  background: linear-gradient(300deg, #AA5486, #0D92F4, #8ABFA3);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+  border-radius: 0px 0px 20px 20px;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.navbar {
+  background: linear-gradient(300deg, #8ABFA3, #0D92F4, #AA5486);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+p {
+  font-family: "Poppins", sans-serif;
+}
+
+h1 {
+  font-family: "Playfair Display", serif;
+}
+
+.header {
+  margin-top: 150px;
+}
+
+.background {
+  border-radius: 0px 0px 20px 20px;
+}
+
+
+.image-header{
+border-radius: 20px 0px 0px 0px;
+
+}
+.my-photo {
+  border-radius: 50%;
+  height: 200px;
+  margin: 20px 0px;
+}
+
+ul {
+  list-style: none;
+}
+
+.my-footer {
+  background-color: #0d6efd;
+}
